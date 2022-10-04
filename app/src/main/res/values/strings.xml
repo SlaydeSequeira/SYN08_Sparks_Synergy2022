@@ -2,4 +2,7 @@
     <string name="app_name">Sparks</string>
     <string name="enter_your_authorization">Enter Your Authorization</string>
     <string name="sign_in">Sign in</string>
+    <string name="title_activity_payment">payment</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
