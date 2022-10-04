@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_authorization"
+        android:id="@+id/text"
+        android:textSize="35dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:text="Admin" />
+
+    <Button
+        android:id="@+id/dialog_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_button"
+        android:layout_marginEnd="10dp"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:text="Organiser" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dialog_button2"
+        android:padding="10dp"
+        android:text="Customer"
+        android:id="@+id/dialog_button3"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="10dp"
+        />
+
+
+</RelativeLayout>

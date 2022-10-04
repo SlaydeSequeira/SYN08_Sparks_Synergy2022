@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sparks</string>
+    <string name="enter_your_authorization">Enter Your Authorization</string>
+    <string name="sign_in">Sign in</string>
+</resources>
