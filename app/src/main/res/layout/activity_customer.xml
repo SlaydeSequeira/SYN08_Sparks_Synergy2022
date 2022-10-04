@@ -64,4 +64,13 @@
         android:layout_centerInParent="true"
         android:text="login"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Team Spark"
+        android:textSize="40dp"
+        android:textColor="@color/teal_200"
+        />
 </RelativeLayout>

@@ -19,7 +19,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Team Spark"
+        android:textSize="40dp"
+        android:textColor="@color/teal_200"
+        />
     <Button
         android:id="@+id/dialog_button"
         android:layout_width="wrap_content"

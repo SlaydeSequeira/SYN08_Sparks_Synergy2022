@@ -26,6 +26,15 @@
         android:textStyle="bold"
         android:textSize="20dp"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Team Spark"
+        android:textSize="40dp"
+        android:textColor="@color/teal_200"
+        />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

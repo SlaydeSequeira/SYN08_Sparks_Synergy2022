@@ -27,6 +27,15 @@
       android:id="@+id/confirm_button"
       android:text="join"
     />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_alignParentBottom="true"
+      android:text="Team Spark"
+      android:textSize="40dp"
+      android:textColor="@color/teal_200"
+      />
 
   <ImageView
       android:layout_width="150dp"
