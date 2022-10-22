@@ -22,6 +22,12 @@ public class MainPage extends AppCompatActivity {
                payment();
             }
         });
+        loginbtn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                payment();
+            }
+        });
     }
     public void payment(){
         Intent intent =new Intent(this,payment.class);
